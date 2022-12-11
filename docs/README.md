@@ -33,7 +33,7 @@ Exception이 아닌 IllegalArgumentException, IllegalStateException 등과 같�
 - 유저입력 InputView
   - 다리길이를 숫자로 입력
   - 0과 1을 통해 건널수 있게 만든다.
-  - U를 입력하면 위, D를 입력하면 아래가 나오게 한다.
+  - ~~U를 입력하면 위, D를 입력하면 아래가 나오게 한다.~~
 - System.in 로직 OutputView
   - 이동할 칸을 O과 X로 구분지어 나타낸다
   - 선택되지 않는 칸은 공백으로 나올수 있게 나타낸다.
