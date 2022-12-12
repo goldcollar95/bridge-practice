@@ -14,6 +14,7 @@ public class InputView {
         System.out.println();
         String str = readLine();
         int toMakeStr = Integer.parseInt(str);
+        return toMakeStr;
     }
 
 
@@ -23,6 +24,7 @@ public class InputView {
     public String readMoving() {
         System.out.println();
         String str = readLine();
+        return str;
     }
 
     /**
@@ -31,5 +33,6 @@ public class InputView {
     public String readGameCommand(){
         System.out.println();
         String str = readLine();
+        return str;
     }
 }
