@@ -57,11 +57,11 @@ public class BridgeMaker {
         }
     }
 
-    public List<String> getUpBridge(){
+    public static List<String> getUpBridge(){
         return upbridge;
     }
 
-    public List<String> getDownBridge(){
+    public static  List<String> getDownBridge(){
         return downbridge;
     }
 
