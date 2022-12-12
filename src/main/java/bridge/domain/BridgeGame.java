@@ -39,4 +39,8 @@ public class BridgeGame {
         }
         return false;
     }
+
+    public int getCount(){
+        return gameCount;
+    }
 }
