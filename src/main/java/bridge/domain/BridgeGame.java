@@ -9,7 +9,7 @@ public class BridgeGame {
     private static final String Correct = "O";
     private static final String Lower = "D";
     private static final String NotCorrect = "X";
-    private static int getCount = 1;
+    private static int gameCount = 1;
 
     /**
      * 사용자가 칸을 이동할 때 사용하는 메서드
@@ -34,13 +34,13 @@ public class BridgeGame {
      */
     public boolean retry(String direction) {
         if(direction.contains("R")){
-            getCount++;
+            gameCount++;
             return true;
         }
         return false;
     }
 
-    public int getCount(){
+    public static int getCount(){
         return gameCount;
     }
 }

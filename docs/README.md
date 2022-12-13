@@ -39,4 +39,4 @@ Exception이 아닌 IllegalArgumentException, IllegalStateException 등과 같�
   - 선택되지 않는 칸은 공백으로 나올수 있게 나타낸다.
   - 다리의 시작 [  다리의 끝 ] 구분, | 문자열 구분
   - 현재까지 다리 모두 출력
-- 사용자 예외 처리 Validator
+- ~~사용자 예외 처리 Validator~~
