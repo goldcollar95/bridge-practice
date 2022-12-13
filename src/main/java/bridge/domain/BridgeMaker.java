@@ -25,24 +25,27 @@ public class BridgeMaker {
      * @param size 다리의 길이
      * @return 입력받은 길이에 해당하는 다리 모양. 위 칸이면 "U", 아래 칸이면 "D"로 표현해야 한다.
      */
-    public  List<String> makeBridge(int size) {
-        for(int index = 0; index < size; index++){
-            int number = bridgeNumberGenerator.generate();
-            if(number == 1){
-                return Collections.singletonList("U");
-            }
-        }
-        return Collections.singletonList("D");
-    }
-
-//    public List<String> makeBridge(int size){
-//        List<String> bridge = new ArrayList<>(size);
-//        String[] result = {"D", "U"};
-//        for(int i = 0; i < size; i++){
-//            bridge.add(result[bridgeNumberGenerator.generate()]);
+//    public  List<String> makeBridge(int size) {
+//        for(int index = 0; index < size; index++){
+//            int number = bridgeNumberGenerator.generate();
+//            if(number == 1){
+//                return Collections.singletonList("U");
+//            }
 //        }
-//        return bridge;
+//        if(number == 2) {
+//            return Collections.singletonList("D");
+//        }
+//
 //    }
+
+    public List<String> makeBridge(int size){
+        List<String> bridge = new ArrayList<>(size);
+        String[] result = {"D", "U"};
+        for(int i = 0; i < size; i++){
+            bridge.add(result[bridgeNumberGenerator.generate()]);
+        }
+        return bridge;
+    }
 
 
 
